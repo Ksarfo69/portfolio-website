@@ -1,0 +1,84 @@
+.container{
+    background-image: url("../public/Img/background.jpg");
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.title{
+    text-align: center;
+    color: white;
+    font-size: 72px;
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+
+.box{
+    border: 2px solid #045F7E;
+    width: 30%;
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #045F7E;
+    transition: all 0.3s ease;
+}
+
+.box:hover{
+    transform: scale(1.03);
+}
+
+.img{
+    border-radius: 12px; 
+    overflow: hidden;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.buttons{
+    display: flex;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.projecttitle{
+    margin: 10px 0px;
+    font-size: 28px;
+    color: white;
+    font-weight: 500;
+}
+
+.projectinfo{
+    line-height: 2;
+    color: white;
+}
+
+.livedemobutton{
+    border: 0px;
+    border-radius: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    padding: 10px; 
+}
+
+.githubbutton{
+    border: 0px;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding: 10px; 
+    cursor: pointer;
+}
+

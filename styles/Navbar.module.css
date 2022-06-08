@@ -1,0 +1,83 @@
+.container{
+    display: flex;
+    align-items: center;
+    height: 8vh;
+    justify-content: space-around;
+    color: white;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.left{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.text{
+    font-style: italic;
+    cursor: pointer;
+    transition: all 0.5s ease;    
+}
+
+.text:hover {
+    border-bottom: 1px solid white;
+    transform: scale(1.05);
+}
+
+
+.center{
+    flex: 3;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.linkhover{
+    cursor: pointer;
+    transition: all 0.5s ease;   
+}
+
+.linkhover:hover{
+    border-bottom: 1px solid white;
+    transform: scale(1.05);
+}
+
+.right{
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.githubimg{
+    color: white;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 50%;
+    transition: all 0.5s ease;
+}
+
+.githubimg:hover{
+    transform: scale(1.1);  
+}
+
+.linkedinimg{
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all 0.5s ease;
+}
+
+.linkedinimg:hover{
+    transform: scale(1.1);  
+}
+
+.mailimg{
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: white;
+    transition: all 0.5s ease;
+}
+
+.mailimg:hover{
+    transform: scale(1.1);  
+}
