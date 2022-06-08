@@ -15,7 +15,7 @@ const Projects = () => {
           {projectdata.map(item =>
             (<div className={styles.box}>
               <div className={styles.img}>
-                <Image src={item.img} alt="" width={450} height={250} />
+                <Image src={item.img} alt="" layout="fill"  />
               </div>
             <div className={styles.info}>
               <div className={styles.projecttitle}>

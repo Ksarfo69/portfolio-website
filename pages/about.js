@@ -12,11 +12,11 @@ const About = () => {
             </div>
         <div className={styles.center}>
             <h1 className={styles.h1text}>About</h1>
-            <p className={styles.ptext}>I'm a self taught junior developer with 2 years of experience in my journey as a web developer.
+            <p className={styles.ptext}>I'm a self taught fullstack developer with experience in designing and building management systems as well as deploying and managing web applications.
 
                 I'm a self-motivated learner with strong organisation, time management & communication skills.
 
-                I'm able to work independently & collaboratively in a team with a meticulous attention to detail.
+                I'm able to work independently & collaboratively in a team with meticulous attention to detail.
                 </p>
         </div>
         <div className={styles.right}>
