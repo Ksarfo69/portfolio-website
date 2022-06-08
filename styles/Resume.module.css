@@ -1,0 +1,158 @@
+.container{
+    background-image: url("../public/Img/background.jpg");
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.row{
+  display: grid;
+  justify-content: center;
+  width: 100vw;
+  margin-top: 30px;
+  margin-bottom: 10px;   
+}
+
+.wrapper{
+    display: flex;
+    width: 80vw;
+    justify-content: space-between;
+}
+
+.mainwrapper{
+    margin-top: 10%;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #045F7E;
+    width: 48%;
+    height: 40vh;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.left:hover{
+    border: 2px solid rgb(196, 146, 21)
+}
+
+.right{
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    color: white;
+    align-items: center;
+    flex-direction: column;
+    background-color: #045F7E;
+    width: 48%;
+    height: 40vh;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+
+.right:hover{
+    border: 2px solid rgb(196, 146, 21)
+}
+
+.center{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    color: white;
+    align-items: center;
+    background-color: #045F7E;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.center:hover{
+    border: 2px solid rgb(196, 146, 21)  
+}
+
+.left1title{
+    font-size: 50px;
+    color: white;
+    position: absolute;
+}
+
+.left1p{
+    position: relative;
+    font-style: italic;
+    top: 75px;
+    left: 80px;
+    color: white;
+    text-decoration: underline;
+}
+
+.heading{
+    font-size: 26;
+    color: white;
+    text-align: left;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.heading2{
+    font-size: 26;
+    color: white;
+    text-align: left;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.bodytext{
+    color: white;
+    font-size: 17px;
+}
+
+.skillbutton{
+    padding: 10px;
+    border-radius: 10px;
+    border: 0px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.buttoncontainer{
+    margin-top: 10px;
+}
+
+.list{
+    margin-left: -200px;
+    color: white;
+    line-height: 2;
+}
+
+.edulist{
+    margin-left: -14%;
+    color: white;
+    line-height: 2; 
+}
+
+.certlist{
+    margin-left: -60%;
+    color: white;
+    line-height: 2; 
+}
+
+.experienceinfo{
+    display: flex;
+    flex-direction: column;
+    line-height: 0;
+}
+
+.explist{
+    margin-left: -21%;
+    color: white;
+    line-height: 2; 
+}
