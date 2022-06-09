@@ -23,6 +23,9 @@
 .mainwrapper{
     margin-top: 10%;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .left{
@@ -63,7 +66,7 @@
 }
 
 .center{
-    width: 100%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     margin-top: 30px;
