@@ -10,13 +10,13 @@ const Interests = () => {
                 </h2>
                 <ul className={styles.list}>
                     <li>
-                    Developing general development skills
+                        Developing general development skills
                     </li>
                     <li>
-                Formula 1 Racing
+                        Formula 1 Racing
                     </li>
                     <li>
-                Project Cars
+                        Project Cars
                     </li>
                 </ul>
             </div>
