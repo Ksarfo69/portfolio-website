@@ -81,3 +81,12 @@
 .mailimg:hover{
     transform: scale(1.1);  
 }
+
+
+@media screen and (max-width: 480px) {
+    .container{
+        display: none;
+    }
+
+    
+}

@@ -7,7 +7,7 @@
 }
 
 .row{
-  display: grid;
+  display: flex;
   justify-content: center;
   width: 100vw;
   margin-top: 30px;
@@ -135,19 +135,16 @@
 }
 
 .list{
-    margin-left: -33%;
     color: white;
     line-height: 2;
 }
 
 .edulist{
-    margin-left: -27.5%;
     color: white;
     line-height: 2; 
 }
 
 .certlist{
-    margin-left: -60%;
     color: white;
     line-height: 2; 
 }
@@ -155,11 +152,10 @@
 .experienceinfo{
     display: flex;
     flex-direction: column;
-    line-height: 0;
+    line-height: 1;
 }
 
 .explist{
-    margin-left: -32.5%;
     color: white;
     line-height: 2; 
 }
@@ -172,4 +168,78 @@
 .iconspacer{
     margin-left: 8px;
     margin-top: 5px;
+}
+
+
+@media screen and (max-width: 450px) {
+    .row{
+        margin-top: 0px; 
+    }
+
+    .wrapper{
+        flex-direction: column;
+         
+    }
+
+    .mainwrapper{
+        margin-top: 30%;
+    }
+
+    .left{
+        width: 100%;
+        margin-top: 10px;
+        border: 1px solid grey;
+    }
+
+    .right{
+        width: 100%;
+        padding: 10px 10px;
+        margin-top: 20px;
+        border: 1px solid grey;
+    }
+
+    .left1title{
+        font-size: 40px;
+        font-weight: 400;
+        position: unset;
+        color: white;
+    }
+    
+    .left1p{
+        font-style: italic;
+        top: -48px;
+        left: 45px;
+        color: white;
+        text-decoration: underline;
+    }
+
+    .list{
+        font-size: 15px;
+    }
+
+    .edulist{
+        font-size: 16px;
+    }
+    
+    .certlist{
+        font-size: 16px;
+    }
+
+    .explist{
+        font-size: 16px;
+    }
+
+    .experienceinfo{
+       line-height: 1;
+       font-size: 15px;
+    }
+
+    .center{
+        border: 1px solid grey;
+        align-items: flex-start;
+    }
+
+    .bodytext{
+        font-size: 16px;
+    }
 }

@@ -14,6 +14,7 @@ const Experience = () => {
               <p>- Low-level programming in C.</p>
             </div>
           </li>
+          <br/>
           <li>
             Fullstack developer at FourEyesGh - Nov 2021 - Jan 2022
             <div className={styles.experienceinfo}>
