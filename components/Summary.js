@@ -9,7 +9,7 @@ const Summary = () => {
               Summary
             </h2>
             <p className={styles.bodytext}>
-              Kwame recently started his journey in the tech industry as a junior developer. He is a self-motivated learner with strong organisation, time management and communication skills. He's able to work independently and collaboratively in a team with great attention to detail.
+              Kwame recently started his journey in the tech industry as a junior developer. He is a self-motivated learner with strong organisation, time management and communication skills. He&apos;s able to work independently and collaboratively in a team with great attention to detail.
             </p>
           </div>
           <div className={styles.right}>
