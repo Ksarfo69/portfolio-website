@@ -12,8 +12,6 @@ const Menu = () => {
         setopenMenu(!openMenu)
     }
 
-    console.log(openMenu)
-
   return (
       <div>
       

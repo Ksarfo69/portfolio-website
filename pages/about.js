@@ -15,13 +15,13 @@ const About = () => {
           <h1 className={styles.h1text}>About</h1>
           <p className={styles.ptext}>
             <p>
-              I'm a self taught fullstack developer with experience in designing and building management systems as well as deploying and managing web applications.
+              I&apos;m a self taught fullstack developer with experience in designing and building management systems as well as deploying and managing web applications.
             </p>
             <p>
-              I'm a self-motivated learner with strong organisation, time management & communication skills.
+              I&apos;m a self-motivated learner with strong organisation, time management & communication skills.
             </p>
             <p>
-              I'm able to work independently & collaboratively in a team with meticulous attention to detail.
+              I&apos;m able to work independently & collaboratively in a team with meticulous attention to detail.
             </p>
           </p>
         </div>
