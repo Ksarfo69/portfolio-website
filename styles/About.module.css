@@ -46,13 +46,7 @@
     justify-content: center;
 }
 
-.about{
-    display: nonw;
-}
 
-.projects{
-    display: none;
-}
 
 
 @media screen and (max-width: 480px) {
@@ -72,7 +66,7 @@
     .center{
         padding: 0px 20px;
         width: 100vw;
-        height: unset;
+        height: 100vh;
     }
 
     .ptext{
