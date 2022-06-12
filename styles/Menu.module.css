@@ -1,0 +1,19 @@
+.container{
+    display: none;
+}
+
+
+@media screen and (max-width:450px) {
+    .container{
+        display: flex;
+        height: 10vh;
+        position: fixed;
+        z-index: 0;
+        
+    }
+
+    .iconholder{
+        margin-top: 20px;
+        padding-left: 10px;
+    }
+}

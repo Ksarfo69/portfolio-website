@@ -6,6 +6,7 @@ import Experience from "../components/Experience"
 import Generalinfo from "../components/Generalinfo"
 import Summary from "../components/Summary"
 import Interests from "../components/Interests"
+import Menu from '../components/Menu'
 
 
 
@@ -14,6 +15,9 @@ const Resume = () => {
     <div className={styles.container}>
       <Navbar/>
       <div className={styles.mainwrapper}>
+        <div className={styles.title}>
+          Resume
+        </div>
         <Generalinfo/>
         <Summary/>
         <Interests/>

@@ -20,8 +20,16 @@
     justify-content: space-between;
 }
 
+.title{
+    text-align: center;
+    color: white;
+    font-size: 72px;
+    margin-top: 10px;
+    font-weight: 700;
+}
+
 .mainwrapper{
-    margin-top: 10%;
+    margin-top: 5%;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -182,7 +190,8 @@
     }
 
     .mainwrapper{
-        margin-top: 30%;
+        margin-top: 0%;
+        padding-top: 15%;
     }
 
     .left{

@@ -1,5 +1,5 @@
 import Navbar from "../components/Navbar"
-import styles from "../styles/Projects.module.css"
+import styles from "../styles/ProjectIndex.module.css"
 import Image from 'next/image'
 import projectdata from "../data/projectsdata"
 import Link from 'next/link'

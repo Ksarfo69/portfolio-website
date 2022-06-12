@@ -3,6 +3,9 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Navbar from '../components/Navbar'
 import Link from 'next/link'
+import Menu from '../components/Menu'
+import About from './aboutPageForIndex'
+import Projects from './projectsPageForIndex'
 
 export default function Home() {
   return (
@@ -17,7 +20,7 @@ export default function Home() {
         <div className={styles.introWrapper}>
           <div className={styles.left}>
               <h1 className={styles.name}>Hi! I am Kwame Sarfo</h1>
-              <p className={styles.info}>I design and build web applications</p>
+              <p className={styles.info}><em>I design and build web applications</em></p>
           </div>
           <div className={styles.right}>
               <Image src="/Img/Laptop.png" alt="" width={1366} height={1000} />
@@ -31,6 +34,8 @@ export default function Home() {
           </Link>
         </div>
       </div>
+      <div className={styles.about}><About/></div>
+      <div className={styles.projects}><Projects/></div>
     </div>
   )
 }
