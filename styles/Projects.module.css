@@ -112,3 +112,18 @@
         height: 160px;
     }
 }
+
+
+@media screen and (max-width: 770px) {
+    .container{
+        height: auto;
+    }
+    
+    .wrapper{
+        flex-direction: column;
+    }
+
+    .box{
+        width: 75%;
+    }
+}

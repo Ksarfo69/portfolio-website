@@ -73,12 +73,17 @@
     .container{
         height: unset;
     }
-    
+
     .introWrapper{
         display: flex;
         flex-direction: column;
-        margin-top: 38%;
+        padding-top: 6%;
     }
+
+    .buttonContainer{
+        margin-top: 30px;
+    }
+
 
     .name{
         text-align: center;
@@ -94,5 +99,16 @@
 
     .projects{
         display: initial;
+    }
+}
+
+
+@media screen and (max-width: 770px) {
+    .name{
+        font-size: 26px;
+    }
+
+    .introductionContainer{
+        padding-top: 40px;
     }
 }

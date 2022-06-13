@@ -91,3 +91,15 @@
 
     
 }
+
+@media screen and (max-width: 780px) {
+    .text{
+        font-size: 18px;
+    }
+
+    .center{
+        font-size: 16px;
+    }
+
+    
+}

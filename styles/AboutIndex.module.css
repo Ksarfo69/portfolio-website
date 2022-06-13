@@ -49,8 +49,9 @@
 
 @media screen and (max-width: 480px) {
     .container{
-        margin-top: 10%;
-        height: 70vh;
+        padding-top: 8%;
+        margin-bottom: 25px;
+        height: 100vh;
     }
 
     .left{
@@ -74,7 +75,7 @@
     .ptext{
         line-height: 1.8;
         text-align: justify;
-        font-size: 20px;
+        font-size: 17px;
         color: white;
         margin-top: 15%;
     }
