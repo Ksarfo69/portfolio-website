@@ -6,6 +6,7 @@ import Link from 'next/link'
 import Menu from '../components/Menu'
 import About from './aboutPageForIndex'
 import Projects from './projectsPageForIndex'
+import Footer from '../components/Footer'
 
 export default function Home() {
   return (
@@ -36,6 +37,7 @@ export default function Home() {
       </div>
       <div className={styles.about}><About/></div>
       <div className={styles.projects}><Projects/></div>
+      <Footer/>
     </div>
   )
 }

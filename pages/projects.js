@@ -4,6 +4,7 @@ import Image from 'next/image'
 import projectdata from "../data/projectsdata"
 import Link from 'next/link'
 import Menu from '../components/Menu'
+import Footer from "../components/Footer"
 
 const Projects = () => {
   return (
@@ -43,6 +44,7 @@ const Projects = () => {
                </div>
               </div>))} 
         </div>
+        <Footer/>
       </div>
   )
 }

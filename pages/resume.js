@@ -7,6 +7,7 @@ import Generalinfo from "../components/Generalinfo"
 import Summary from "../components/Summary"
 import Interests from "../components/Interests"
 import Menu from '../components/Menu'
+import Footer from "../components/Footer"
 
 
 
@@ -25,6 +26,7 @@ const Resume = () => {
         <Experience/>
         <Certifications/>
       </div>
+      <Footer/>
     </div>    
   )
 }

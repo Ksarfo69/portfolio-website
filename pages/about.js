@@ -2,6 +2,7 @@ import styles from '../styles/About.module.css'
 import Navbar from '../components/Navbar'
 import Image from 'next/image'
 import Menu from '../components/Menu'
+import Footer from '../components/Footer'
 
 const About = () => {
   return (
@@ -29,6 +30,7 @@ const About = () => {
           <Image src="/Img/Aboutimg2.png" alt="" width={350} height={280} />
         </div>
       </div>
+      <Footer/>
     </div>
   )
 }
