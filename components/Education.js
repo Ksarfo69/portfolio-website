@@ -8,11 +8,11 @@ const Education = () => {
         </h2>
         <ul className={styles.edulist}>
           <li>
-           Backend engineering at AltSchool Africa - Apr 2022 - Present
+           Backend engineering at AltSchool Africa - <em>Apr 2022 - Present</em>
           </li>
           <li>
            Quantity Surveying and Construction Economics at Kwame Nkrumah
-           University of Science and Technology - Sep 2017 - Nov 2021
+           University of Science and Technology - <em>Sep 2017 - Nov 2021</em>
           </li>
         </ul>
       </div>

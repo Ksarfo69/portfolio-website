@@ -21,7 +21,7 @@ const Generalinfo = () => {
           <div className={styles.right}>
             <div className={styles.iconholder}><EmailIcon/><div className={styles.iconspacer}>ksarfo69@gmail.com</div></div>
             <div className={styles.iconholder}><PhoneIcon/><div className={styles.iconspacer}>+233 249 771 237</div></div>
-            <div className={styles.iconholder}><HomeIcon/><div className={styles.iconspacer}>Kumasi, Ghanaa</div></div>
+            <div className={styles.iconholder}><HomeIcon/><div className={styles.iconspacer}>Kumasi, Ghana</div></div>
             <div className={styles.iconholder}><DvrIcon/><div className={styles.iconspacer}>www.portfolio.com</div></div>
             <div className={styles.iconholder}><LinkedInIcon/><div className={styles.iconspacer}>linkedin/kwame-sarfo/988484</div></div>
             <div className={styles.iconholder}><GitHubIcon/><div className={styles.iconspacer}>github/Ksarfo69</div></div>

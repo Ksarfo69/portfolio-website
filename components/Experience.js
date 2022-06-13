@@ -8,7 +8,7 @@ const Experience = () => {
         </h2>
         <ul className={styles.explist}>
           <li>
-            Fullstack developer in Training at ALX Africa - May 2022 - Present
+            Fullstack developer in Training at ALX Africa - <em>May 2022 - Present</em>
             <div className={styles.experienceinfo}>
               <p>- Shell scripting with bash.</p>
               <p>- Low-level programming in C.</p>
@@ -16,7 +16,7 @@ const Experience = () => {
           </li>
           <br/>
           <li>
-            Fullstack developer at FourEyesGh - Nov 2021 - Jan 2022
+            Fullstack developer at FourEyesGh - <em>Nov 2021 - Jan 2022</em>
             <div className={styles.experienceinfo}>
               <p>- Wrote high-quality code using React for the frontend sub-system and NodeJS(ExpressJS) for the backend sub-system.</p>
               <p>- Integrated payments using Paystack APIs</p>

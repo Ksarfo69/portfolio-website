@@ -1,7 +1,7 @@
 const projectdata = [
     {
         title: "FourEyesGh",
-        description: "This is an e-commerce website I built to kickstart my small business, I built it using React, Node.js(Express.js), MongoDB and Styled-components. It uses React Redux for state management.",
+        description: "This is an e-commerce website I built to kickstart my small business. I built it using React, Node.js(Express.js), MongoDB and Styled-components. It uses React Redux for state management.",
         img: "/Img/foureyes.png",
         livelink: "https://www.shopfoureyesgh.com",
         github: "none"
