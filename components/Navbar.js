@@ -24,15 +24,15 @@ const Navbar = () => {
             </div>
         </div>
         <div className={styles.right}>
-            <Link href="https://github.com/Ksarfo69">
+            <a href="https://github.com/Ksarfo69" target="_blank" rel="noreferrer">
                 <Image className={styles.githubimg} src="/Img/Github.png" alt="" width={30} height={27}/>
-            </Link>
-            <Link href="https://www.linkedin.com/in/kwame-sarfo-91484933/">
+            </a>
+            <a href="https://www.linkedin.com/in/kwame-sarfo-91484933/" target="_blank" rel="noreferrer">
                 <Image className={styles.linkedinimg} src="/Img/Linkedin.png" alt="" width={30} height={27}/>
-            </Link>
-            <Link href="mailto:ksarfo69@gmail.com">
+            </a>
+            <a href="mailto:ksarfo69@gmail.com" target="_blank" rel="noreferrer">
                 <Image className={styles.mailimg} src="/Img/Mail.jpg" alt="" width={30} height={27}/>
-            </Link>
+            </a>
         </div>
     </div>
   )

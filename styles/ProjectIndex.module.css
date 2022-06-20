@@ -87,6 +87,8 @@
 }
 
 
+
+
 @media screen and (max-width: 480px) {
 
     .wrapper{
@@ -98,7 +100,7 @@
     }
 
     .title{
-        margin-top: 0px;
+        margin-top: -17%;
         font-size: 45px;
     }
 
@@ -106,4 +108,11 @@
         height: 160px;
     }
 
+}
+
+@media screen and (max-width: 350px) {
+
+    .title{
+        margin-top: -5%;
+    }
 }
