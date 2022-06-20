@@ -12,9 +12,9 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Kwame Sarfo Portofolio</title>
-        <meta name="description" content="Personal portofolio of Kwame Sarfo" />
-        <link rel="icon" href="/favicon.ico" />
+        <title>Kwame Sarfo Portfolio</title>
+        <meta name="description" content="Personal portfolio of Kwame Sarfo" />
+        <link rel="icon" href="/Me.jpg" />
       </Head>
       <Navbar/>
       <div className={styles.introductionContainer}>
