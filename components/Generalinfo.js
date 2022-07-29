@@ -5,20 +5,21 @@ import HomeIcon from '@mui/icons-material/Home';
 import DvrIcon from '@mui/icons-material/Dvr';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import React from "react";
 
 const Generalinfo = () => {
   return (
-      <div className={styles.row}>
+      <div className={styles.row} data-testid="container">
         <div className={styles.wrapper}>
           <div className={styles.left}>
-            <h1 className={styles.left1title}>
+            <h1 className={styles.left1title} data-testid="name">
               Kwame Sarfo
             </h1>
-            <p className={styles.left1p}>
+            <p className={styles.left1p} data-testid="heading">
               Fullstack developer
             </p>
           </div>
-          <div className={styles.right}>
+          <div className={styles.right} data-testid="personalinfo">
             <div className={styles.iconholder}><EmailIcon/><div className={styles.iconspacer}>ksarfo69@gmail.com</div></div>
             <div className={styles.iconholder}><PhoneIcon/><div className={styles.iconspacer}>+233 249 771 237</div></div>
             <div className={styles.iconholder}><HomeIcon/><div className={styles.iconspacer}>Kumasi, Ghana</div></div>
