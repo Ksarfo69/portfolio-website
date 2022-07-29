@@ -1,22 +1,23 @@
 import styles from "../styles/Resume.module.css"
+import React from "react"
 
 const Summary = () => {
     return (
-     <div className={styles.row}>
+     <div className={styles.row} data-testid="container">
         <div className={styles.wrapper}>
-          <div className={styles.left}>
+          <div className={styles.left} data-testid="heading">
             <h2 className={styles.heading}>
               Summary
             </h2>
-            <p className={styles.bodytext}>
+            <p className={styles.bodytext} data-testid="info">
               Kwame recently started his journey in the tech industry as a junior developer. He is a self-motivated learner with strong organisation, time management and communication skills. He&apos;s able to work independently and collaboratively in a team with great attention to detail.
             </p>
           </div>
           <div className={styles.right}>
-            <h2 className={styles.heading2}>
+            <h2 className={styles.heading2} data-testid="heading1">
               Key Skills
             </h2>
-            <div className={styles.buttoncontainer}>
+            <div className={styles.buttoncontainer} data-testid="skills"> 
               <button className={styles.skillbutton}>
                 HTML           
               </button>

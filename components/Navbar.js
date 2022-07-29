@@ -1,18 +1,19 @@
 import styles from '../styles/Navbar.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
+import React from 'react'
 
 const Navbar = () => {
   return (
-    <div className={styles.container}>
-        <div className={styles.left}>
+    <div className={styles.container} data-testid="container">
+        <div className={styles.left} data-testid="name">
             <Link href="/">
             <div className={styles.text}>
                 Kwame Sarfo
             </div>
             </Link> 
         </div>
-        <div className={styles.center}>
+        <div className={styles.center} data-testid="centernav">
             <div className={styles.linkhover}>
                 <Link href="/about">About</Link>
             </div>
@@ -23,7 +24,7 @@ const Navbar = () => {
                 <Link href="/resume">Resume</Link>
             </div>
         </div>
-        <div className={styles.right}>
+        <div className={styles.right} data-testid="links">
             <a href="https://github.com/Ksarfo69" target="_blank" rel="noreferrer">
                 <Image className={styles.githubimg} src="/Img/Github.png" alt="" width={30} height={27}/>
             </a>
