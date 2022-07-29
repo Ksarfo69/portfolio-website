@@ -4,7 +4,7 @@ import styles from '../styles/MenuLinks.module.css'
 
 const MenuLinks = (props) => {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} data-testid="container">
         <div onClick={()=>props.setopenMenu(false)} className={styles.linkhover}>
             <Link href="/">Home</Link>
         </div>
