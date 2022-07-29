@@ -5,17 +5,18 @@ import projectdata from "../data/projectsdata"
 import Link from 'next/link'
 import Menu from '../components/Menu'
 import Footer from "../components/Footer"
+import React from 'react'
 
 const Projects = () => {
   return (
-      <div className={styles.container}>
-        <Navbar/>
+      <div className={styles.container} data-testid="projectspagecontainer">
+        <Navbar data-testid="navbar"/>
         
-        <div className={styles.title}>
+        <div className={styles.title} data-testid="title">
           Projects
         </div>
         
-        <div className={styles.wrapper}>
+        <div className={styles.wrapper} data-testid="projects">
           {projectdata.map(item =>
             ( <div key={item.title} className={styles.box}>
                 <div className={styles.img}>
