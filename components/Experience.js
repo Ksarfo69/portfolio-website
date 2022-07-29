@@ -1,12 +1,13 @@
 import styles from '../styles/Resume.module.css'
+import React from 'react'
 
 const Experience = () => {
   return (
-     <div className={styles.center}>
-        <h2 className={styles.heading2}>
+     <div className={styles.center} data-testid="container">
+        <h2 className={styles.heading2} data-testid="heading">
             Experience
         </h2>
-        <ul className={styles.explist}>
+        <ul className={styles.explist} data-testid="list">
           <li>
             Fullstack developer in Training at ALX Africa - <em>May 2022 - Present</em>
             <div className={styles.experienceinfo}>
