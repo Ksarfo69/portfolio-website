@@ -7,17 +7,18 @@ import Menu from '../components/Menu'
 import About from './aboutPageForIndex'
 import Projects from './projectsPageForIndex'
 import Footer from '../components/Footer'
+import React from 'react'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} data-testid="homepagecontainer">
       <Head>
         <title>Kwame Sarfo Portfolio</title>
         <meta name="description" content="Personal portfolio of Kwame Sarfo" />
         <link rel="icon" href="/Me.jpg" />
       </Head>
-      <Navbar/>
-      <div className={styles.introductionContainer}>
+      <Navbar data-testid="navbar"/>
+      <div className={styles.introductionContainer} data-testid="introduction">
         <div className={styles.introWrapper}>
           <div className={styles.left}>
               <h1 className={styles.name}>Hi! I am Kwame Sarfo</h1>
