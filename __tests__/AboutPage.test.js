@@ -13,7 +13,7 @@ describe(About, ()=>{
         const image1 = screen.getByTestId("image1");
         const info = screen.getByTestId("info");
         const image2 = screen.getByTestId("image2");
-        const footer = screen.getByTestId("footer");
+        const footer = screen.getByTestId("footertester");
         
 
     
