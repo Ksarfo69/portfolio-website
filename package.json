@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start -p $PORT",
-    "test": "jest --watch",
+    "test": "jest --watchAll",
     "open:coverage": "start ./coverage/lcov-report/index.html",
     "lint": "next lint"
   },
