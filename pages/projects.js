@@ -3,7 +3,6 @@ import styles from "../styles/Projects.module.css"
 import Image from 'next/image'
 import projectdata from "../data/projectsdata"
 import Link from 'next/link'
-import Menu from '../components/Menu'
 import Footer from "../components/Footer"
 import React from 'react'
 

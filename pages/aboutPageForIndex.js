@@ -1,7 +1,6 @@
 import styles from '../styles/AboutIndex.module.css'
 import Navbar from '../components/Navbar'
 import Image from 'next/image'
-import Menu from '../components/Menu'
 import React from 'react'
 
 const About = () => {

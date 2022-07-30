@@ -6,7 +6,6 @@ import Experience from "../components/Experience"
 import Generalinfo from "../components/Generalinfo"
 import Summary from "../components/Summary"
 import Interests from "../components/Interests"
-import Menu from '../components/Menu'
 import Footer from "../components/Footer"
 import React from 'react'
 
