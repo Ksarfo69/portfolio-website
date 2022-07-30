@@ -15,7 +15,7 @@ describe(About, ()=>{
         const image2 = screen.getByTestId("image2");
         const footer = screen.getByTestId("footer");
         
-
+ 
     
         expect(container).toBeInTheDocument();
         expect(title).toHaveTextContent("About");
