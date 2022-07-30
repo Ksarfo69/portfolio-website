@@ -27,7 +27,13 @@ jobs:
     needs: [lintTest]
     steps:
       - uses: actions/checkout@v2
+      - name: Install the Dependencies
+        run: |
+          echo "Installing the dependencies"
+          npm install --legacy-peer-deps
       - name: Run Jest Tests
-        uses: stefanoeb/jest-action@1.0.4
+        run: |
+          echo "Running Jest Tests"
+          npm run test
         env:
           CI: true
