@@ -28,8 +28,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Run Jest Tests
-        run: |
-          echo "Running Jest Tests"
-          npm run test
+        uses: stefanoeb/jest-action@1.0.4
         env:
           CI: true
