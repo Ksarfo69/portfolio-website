@@ -24,6 +24,7 @@ jobs:
   JestTest:
     name: Jest
     runs-on: ubuntu-latest
+    needs: [lintTest]
     steps:
       - name: Run Jest Tests
         run: npm run test
