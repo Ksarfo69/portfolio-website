@@ -21,3 +21,11 @@ jobs:
           npm run lint
         env:
           CI: true
+  JestTest:
+    name: Jest
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run Jest Tests
+        run: npm run test
+        env:
+          CI: true
