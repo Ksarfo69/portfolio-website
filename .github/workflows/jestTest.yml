@@ -1,0 +1,23 @@
+name: Jest-Heroku Pipeline
+
+on:
+  push:
+    branches: [master]
+
+jobs: 
+  lintTest:
+    name: Lint
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone the Repository
+        uses: actions/checkout@v2
+      - name: Install the Dependencies
+        run: |
+          echo "Installing the dependencies"
+          npm install
+      - name: Run Eslint
+        run: |
+          echo "Running eslint"
+          npm run lint
+        env:
+          CI: true
