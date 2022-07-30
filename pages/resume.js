@@ -21,7 +21,7 @@ const Resume = () => {
         </div>
         <div data-testid="generalinfo"><Generalinfo /></div>
         <div data-testid="summary"><Summary/> </div>
-        <div data-testid="interests"><Interests /></div>
+        <div  data-testid="interests"><Interests /></div>
         <div data-testid="education"><Education /></div>
         <div data-testid="experience"><Experience /></div>
         <div data-testid="certifications"><Certifications /></div>
