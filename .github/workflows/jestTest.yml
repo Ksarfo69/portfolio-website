@@ -26,6 +26,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: [lintTest]
     steps:
+      - uses: actions/checkout@v2
       - name: Run Jest Tests
         run: |
           echo "Running Jest Tests"
