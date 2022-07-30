@@ -27,7 +27,8 @@ jobs:
     needs: [lintTest]
     steps:
       - name: Run Jest Tests
-        uses: actions/checkout@v2
-        run: npm run test
+        run: |
+          echo "Running Jest Tests"
+          npm run test
         env:
           CI: true
